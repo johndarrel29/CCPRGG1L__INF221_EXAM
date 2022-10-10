@@ -285,7 +285,31 @@ public class Exam {
 
         System.out.println("invalid");
         }
+            
+// ==============================================================================
+        // Programming competition/Job interview level question (20 points)
 
+        // 11. Think like an ATM.
+
+        // You have an N amount of pesos in your savings account and you have decided
+        // that you want to withdraw all of your money in the ATM.
+
+        // The denomination of peso bills that the ATM could dispense are 20, 50, 100,
+        // 200, 500, 1000.
+
+        // Create a method that will return the minimum number of peso bills that the
+        // ATM will dispense after withdrawing all of your money.
+
+        // Example:
+        // Elizer has 150 pesos in his bank account. If elizer withdraws 150 pesos in
+        // the ATM, the ATM will dispense two peso bills (100 peso bill and 50 peso
+        // bill). (Answer is 2)
+
+        //System.out.println("11. Think like an ATM");
+        //System.out.print("Enter the total amount of money in your bank account: ");
+        //int amount = scan.nextInt();
+
+        // Close scanner
         scan.close(); 
     }
     
