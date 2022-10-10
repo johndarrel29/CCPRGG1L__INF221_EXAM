@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Exam {
 
     static Scanner scan = new Scanner(System.in);
@@ -70,6 +72,7 @@ public class Exam {
         else
             System.out.println("ODD"); 
         }
+
         // ==============================================================================
 
         // 3. Create a method that will return the total character length of your
@@ -168,6 +171,7 @@ public class Exam {
             System.out.println("invalid");
         }
     }
+
         // ==============================================================================
 
         // 8. Create a nested condition that will ask the specialization of the student
