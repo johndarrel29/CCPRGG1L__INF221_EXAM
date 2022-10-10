@@ -169,6 +169,7 @@ public class Exam {
 
             System.out.println("invalid");
         }
+    }
         // ==============================================================================
 
         // 8. Create a nested condition that will ask the specialization of the student
@@ -181,8 +182,8 @@ public class Exam {
         // Condition 2
         // if the student is BSCS, ask again if the student is taking ML or DF.
 
-        System.out.println("8. Nested conditions"); }
         static void myCourseChoice(){
+        System.out.println("8. Nested conditions");
 
             System.out.println("Enter your enrolled course (BSIT or BSCS): ");
             String course = scan.next();
@@ -210,7 +211,7 @@ public class Exam {
                 String specialization2 = scan.next();
                 switch (specialization2){
                 case "DF":
-                System.out.print("You are taking BSCS specialized in DL");
+                System.out.print("You are taking BSCS specialized in DF");
                 break;
 
                 case "ML":
@@ -219,6 +220,7 @@ public class Exam {
             }
         }
     }
+        
         // ==============================================================================
 
         // 9. Create a condition to check if the answer belongs to one of the possible
@@ -232,7 +234,6 @@ public class Exam {
         // ARTS AND DESIGN
         // TVL MARITIME
         static void myStrand(){
-
         System.out.println("9. Selection");
 
         System.out.println("STEM");
