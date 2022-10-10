@@ -7,25 +7,25 @@ public class Exam {
     public static void main(String[] args) throws Exception {
 
         // 1. 
-        studentNumber();
+        myStudentNumber();
         // 2.
-        even_odd();
+        oddOrEven();
         // 3.
-        firstname_lastname();
+        myFirstNameAndLastName1();
         // 4.
-        firstName_lastName2();
+        myFirstNameAndLastName2();
         // 5.
-        vowel();
+        nameVowel();
         // 6.
-        Uppercase();
+        studentNumValidation();
         // 7.
-        firstname_uppercase();
+        caseSensitivityCheck();
         // 8.
-        courseChoice();
+        myCourseChoice();
         // 9.
-        strand();
+        myStrand();
         // 10.
-        email();
+        myStudentEmail();
         }
         // Long exam 2
         // Total points possible (100 pts)
@@ -39,7 +39,7 @@ public class Exam {
         // ==============================================================================
         // 1. Create a method and think of a formula to get the last 6 digits of your
         // student number. (10 pts)
-        static void studentNumber(){
+        static void myStudentNumber(){
 
         System.out.println("1. Last six digits");
         System.out.print("Enter your ten digit student number: ");
@@ -58,7 +58,7 @@ public class Exam {
         // print "ODD" if the last two digits of your student number is an odd number
         // print "EVEN" if the last two digits of your student number is an even number.
         // (10 pts)
-        static void even_odd(){
+        static void oddOrEven(){
 
         System.out.println("2. ODD or EVEN numbers");
         System.out.print("Enter the last two digits of your student number: ");
@@ -74,7 +74,7 @@ public class Exam {
 
         // 3. Create a method that will return the total character length of your
         // firstname and your surname. (10 pts)
-        static void firstname_lastname(){
+        static void myFirstNameAndLastName1(){
 
         System.out.println("3. Length of your fullname");
         System.out.print("Enter your firstname: ");
@@ -92,7 +92,7 @@ public class Exam {
         // 4. Create a method to that will return true if your firstname in BOTH
         // UPPERCASE and lowercase are EQUAL.
         // Otherwise, return false.
-        static void firstName_lastName2(){
+        static void myFirstNameAndLastName2(){
 
         System.out.println("4. Check your first name in LOWERCASE and UPPERCASE");
         System.out.print("Enter your first name in lowercase: ");
@@ -113,7 +113,7 @@ public class Exam {
         // 5. Create a method that will return true if your name starts with
         // a vowel 'A','E','I','O','U'.
         // Otherwise, return false.
-        static void vowel(){
+        static void nameVowel(){
 
         System.out.println("5. Vowel or Consonant");
         System.out.print("Enter the first character of your first name: ");
@@ -136,7 +136,7 @@ public class Exam {
         // ==============================================================================
         // 6. Create a condition to check if the entered student number is your student
         // number. (10 pts)
-        static void Uppercase(){
+        static void studentNumValidation(){
 
         System.out.println("6. Student number validation");
         System.out.print("Enter your ten digit student number: ");
@@ -154,7 +154,7 @@ public class Exam {
 
         // 7. Create a condition to check if your firstname is in UPPERCASE and your
         // lastname is in lowercase. (10 pts)
-        static void firstname_uppercase(){
+        static void caseSensitivityCheck(){
         
         System.out.println("7. Case sensitivity check");
         System.out.print("Enter your firstname in UPPERCASE: ");
@@ -182,7 +182,7 @@ public class Exam {
         // if the student is BSCS, ask again if the student is taking ML or DF.
 
         System.out.println("8. Nested conditions"); }
-        static void courseChoice(){
+        static void myCourseChoice(){
 
             System.out.println("Enter your enrolled course (BSIT or BSCS): ");
             String course = scan.next();
@@ -231,7 +231,7 @@ public class Exam {
         // HOME ECONOMICS
         // ARTS AND DESIGN
         // TVL MARITIME
-        static void strand(){
+        static void myStrand(){
 
         System.out.println("9. Selection");
 
@@ -252,7 +252,7 @@ public class Exam {
             case "ICT":
                 System.out.println("valid");
                 break;
-            case "HUMMS":
+            case "HUMSS":
                 System.out.println("valid");
                 break;
             case "HOME ECONOMICS":
@@ -273,7 +273,7 @@ public class Exam {
 
         // 10. Create a condition to check if your student email address contains your
         // surname. (10 pts)
-        static void email(){
+        static void myStudentEmail(){
 
         System.out.println("10. Validate student email address ");
         System.out.print("Enter your student email address: ");
