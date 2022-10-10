@@ -273,7 +273,7 @@ public class Exam {
 
         // 10. Create a condition to check if your student email address contains your
         // surname. (10 pts)
-        static void myStudentEmail(){
+        static void myStudentEmail() {
 
         System.out.println("10. Validate student email address ");
         System.out.print("Enter your student email address: ");
