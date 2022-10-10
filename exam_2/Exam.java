@@ -49,7 +49,7 @@ public class Exam {
         
             System.out.println ("The last six digits of my student number is" + " " + lastSixDigits); 
 
-    } 
+        } 
     
         // ==============================================================================
 
