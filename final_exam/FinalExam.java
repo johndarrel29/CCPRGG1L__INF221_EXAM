@@ -1,6 +1,8 @@
 public class FinalExam {
     public static void main(String[] args) throws Exception {
 
+        // Print the words in their given pattern.
+
         char[][] array = {
                 { 'R', 'E', 'I', 'M', 'A', 'E', 'R', 'S', 'G', 'T' },
                 { 'E', 'V', 'D', 'B', 'D', 'V', 'I', 'A', 'B', 'I' },
@@ -13,7 +15,8 @@ public class FinalExam {
                 { 'G', 'B', 'D', 'S', 'T', 'K', 'P', 'W', 'S', 'O' },
                 { 'G', 'T', 'L', 'H', 'Q', 'X', 'Q', 'L', 'O', 'E' },
         };
-
+        // =============================================================
+        // ALAK - (10 points)
         System.out.println(" ");
         System.out.println("1. ALAK ");
 
@@ -38,6 +41,8 @@ public class FinalExam {
             }
         }
     
+        // =============================================================
+        // GITHUB - (10 points)
         System.out.println(" ");
         System.out.println("2. GITHUB ");
 
@@ -68,7 +73,8 @@ public class FinalExam {
             }
         }
     
-        
+        // =============================================================
+        // SISIG - (10 points)
         System.out.println(" ");
         System.out.println("3. SISIG ");
 
@@ -96,6 +102,8 @@ public class FinalExam {
             }
         }
 
+        // =============================================================
+        // VSCODE - (10 points)
         System.out.println(" ");
         System.out.println("4. VSCODE ");
 
@@ -126,7 +134,8 @@ public class FinalExam {
             }
         }
 
-
+        // =============================================================
+        // BEER - (10 points)
         System.out.println(" ");
         System.out.println("5. BEER ");
 
@@ -140,6 +149,8 @@ public class FinalExam {
             }
         }
 
+        // =============================================================
+        // JAVA - (10 points)
         System.out.println(" ");
         System.out.println("6. JAVA ");
 
@@ -164,6 +175,8 @@ public class FinalExam {
             }
         }
 
+        // =============================================================
+        // TIKTOK - (10 points)
         System.out.println(" ");
         System.out.println("7. TIKTOK ");
 
@@ -176,6 +189,8 @@ public class FinalExam {
             }
         }
 
+        // =============================================================
+        // CHILLTOP - (10 points)
         System.out.println(" ");
         System.out.println("8. CHILLTOP ");
 
@@ -188,6 +203,8 @@ public class FinalExam {
             }
         }
 
+        // =============================================================
+        // REDHORSE - (10 points)
         System.out.println(" ");
         System.out.println("9. REDHORSE ");
 
@@ -224,6 +241,8 @@ public class FinalExam {
             }
         }
     
+        // =============================================================
+        // TIPSY - (10 points)
         System.out.println(" ");
         System.out.println("10. TIPSY ");
 
@@ -235,5 +254,48 @@ public class FinalExam {
                 }
             }
         }
+
+        // =============================================================
+
+        // BONUS
+        // SLY starts to learn programming. The first task is drawing a fox! However, that turns out to be too hard for a beginner, so she decides to draw a snake instead.
+
+        // A snake is a pattern on a n by m table. Denote c-th cell of r-th row as (r, c). The tail of the snake is located at (1, 1), then it's body extends to (1, m), then goes down 2 rows to (3, m), then goes left to (3, 1) and so on.
+
+        // Your task is to draw this snake for Fox Ciel: the empty cells should be represented as dot characters ('.') and the snake cells should be filled with number signs ('#').
+
+        // Consider sample tests in order to understand the snake pattern.
+        
+        
+        // Input
+        // The only line contains two integers: n and m (3 ≤ n, m ≤ 50).
+
+        // n is an odd number.
+
+        // Output
+        // Output n lines. Each line should contain a string consisting of m characters. Do not output spaces.
+        
+        // Example
+        // Input: 3 3
+        
+        // ###
+        // ..#
+        // ###
+        // #..
+        // ###
+        
+        
+//         Input: 9 9
+            
+// #########
+// ........#
+// #########
+// #........
+// #########
+// ........#
+// #########
+// #........
+// #########
+
     }
 }
